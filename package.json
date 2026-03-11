@@ -1,0 +1,24 @@
+{
+  "name": "rollertap",
+  "version": "1.0.0",
+  "description": "Script d'automatisation pour le mini-jeu Telegram RollerTap:\r - clic en boucle pour vider l'energie\r - tentative de recharge automatique 1 fois par heure\r - se connecte via **Telegram Web** (`web.telegram.org`) pour eviter d'ouvrir l'app desktop",
+  "main": "rollertap-bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blockburnb/RollerTap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Blockburnb/RollerTap/issues"
+  },
+  "homepage": "https://github.com/Blockburnb/RollerTap#readme",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
